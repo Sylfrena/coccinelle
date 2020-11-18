@@ -1369,6 +1369,7 @@ module Flag :
       | Glimpse
       | CocciGrep
       | GitGrep
+      | PatchDiff
       | NoScanner
     val scanner : scanner ref
     val pyoutput : string ref
