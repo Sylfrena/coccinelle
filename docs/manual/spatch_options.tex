@@ -217,6 +217,10 @@ intereted relative to the target directory.  If the filename is an absolute
 path name, beginning with /, it is used as is.
 }
 
+\normal{-{}-use-patchdiff}{ This option allows for applying a semantic patch
+to only the files that have been modified in a directory. The directory needs
+to be specified by the user.}
+
 \normal{-{}-use-coccigrep}{ Use a version of grep implemented in Coccinelle
   to check that selected files are relevant to the semantic patch.  This
   option is only relevant to the case of working on a complete directory,
